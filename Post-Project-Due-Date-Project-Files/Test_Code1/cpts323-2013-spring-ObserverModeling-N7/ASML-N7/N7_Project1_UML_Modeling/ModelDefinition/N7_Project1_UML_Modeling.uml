@@ -1,0 +1,1062 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/UseCaseModel"
+  dslVersion="1.0.0.0"
+  Id="3d8623ca-206a-4281-843d-f5cf4c75d9f0"
+  name="N7_Project1_UML_Modeling" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
+      <profileInstance
+        Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791"
+        name="StandardProfileL2" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="29349502-908c-4fda-9054-c48619c59ed0">
+      <profileInstance
+        Id="532ea607-fb19-44b8-8502-3351b05452be"
+        name="StandardProfileL3" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="5453756a-8c94-4568-bc9a-4d628c44c8cc">
+      <profileInstance
+        Id="1f796a69-104d-47fa-8f23-e4bac6797e42"
+        name="CSharpProfile" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="c8e9d5ff-63dd-481c-9abb-f4d65c2d5905"
+        LastKnownName="ASML_N7"
+        LastKnownLocation="Package_0854.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="b7324f68-5c56-4dc3-b124-05799259a286"
+        LastKnownName="System"
+        LastKnownLocation="Package1_0854.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="6c0f63b2-d6a0-452e-b14a-385ecf24bf13"
+        LastKnownName="WebcamControl"
+        LastKnownLocation="Package7_0854.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="14d0c9f4-f1be-4c2b-8ab8-116ca586c4a3"
+        LastKnownName="UsbLibrary"
+        LastKnownLocation="Package11_0854.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="e8674f3a-9182-40d3-ba36-bc897247ff2f"
+        name="Instructor"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="cd3ad8cd-2439-4490-8448-ec39b35ecbee"
+            isDerived="false"
+            sourceEndRoleName="Instructor"
+            targetEndRoleName="Move Turret"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="e736688a-d583-47f4-a2ba-823cb63c6724"
+              LastKnownName="Turret Movement"
+              LastKnownLocation="N7_Project1_UML_Modeling.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="8d44aa09-5aa5-48b1-a927-9d59f0229def"
+                  name="Instructor"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="69b802f1-d96c-4c0a-ab0e-6771b33faad8"
+                  name="Move Turret"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="bc38ed01-5502-4e0f-84fa-fc2d6b03ab76"
+            isDerived="false"
+            sourceEndRoleName="Instructor"
+            targetEndRoleName="Manual Fire Turret"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="f7499aa7-ee04-4a71-b38d-6495cbc8e4c2"
+              LastKnownName="Manual Fire Turret"
+              LastKnownLocation="N7_Project1_UML_Modeling.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="53f27596-17fd-41d5-8dfc-92293a03a8b9"
+                  name="Instructor"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="93d577be-6a3f-4a27-ae10-93e2aa449351"
+                  name="Manual Fire Turret"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="3671fd0f-e861-4deb-a21f-c9cf0b430cc9"
+            isDerived="false"
+            sourceEndRoleName="Instructor"
+            targetEndRoleName="Start Camera"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="2f75c67d-4f4e-466f-a349-87ee95d5f8f9"
+              LastKnownName="Start Camera"
+              LastKnownLocation="N7_Project1_UML_Modeling.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="1a5dc703-8aff-49c1-97c7-d9a55cd7417e"
+                  name="Instructor"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="c0b8d41e-050f-4148-b8bc-daf7d4ae347c"
+                  name="Start Camera"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="8414bf68-a755-4a82-bc31-0c90de01f39b"
+            isDerived="false"
+            sourceEndRoleName="Instructor"
+            targetEndRoleName="Stop Camera"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="b9224853-2b06-4772-a7f7-d1bb45a5b98b"
+              LastKnownName="Stop Camera"
+              LastKnownLocation="N7_Project1_UML_Modeling.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="59ed152d-332f-4e86-81c9-13461480f526"
+                  name="Instructor"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="f93ab8e8-0ed3-46fe-983e-b851a12610c4"
+                  name="Stop Camera"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="85b42129-fcbb-44d6-8270-673095c442ef"
+            isDerived="false"
+            sourceEndRoleName="Instructor"
+            targetEndRoleName="Start Application"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="17bd3c01-2029-40a5-8aa2-3703b763b014"
+              LastKnownName="Start Application"
+              LastKnownLocation="N7_Project1_UML_Modeling.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="1e5c2e1e-5d9a-4acd-9717-565163de066a"
+                  name="Instructor"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="7fa8a383-1f54-4668-87ab-b0036784d6a0"
+                  name="Start Application"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="4063ed05-0f44-4b4d-a402-f7f7ae98c10f"
+            isDerived="false"
+            sourceEndRoleName="Instructor"
+            targetEndRoleName="Load Configuration"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="cc4293ec-24f1-4533-b086-388a29d88c17"
+              LastKnownName="Load Configuration"
+              LastKnownLocation="N7_Project1_UML_Modeling.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="1ece7896-3f9e-41ee-bc20-58d3e2a8310e"
+                  name="Instructor"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="96dfc5cb-f713-4480-b6eb-351a4be81fbb"
+                  name="Load Configuration"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="c61470b1-ab2a-4038-9b36-dacedcddc7e7"
+        name="Start Application"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="70336ccb-227f-49bf-8e18-8a0e776a6ca5"
+            isDerived="false"
+            sourceEndRoleName="Start Application"
+            targetEndRoleName="Instructor"
+            isLeaf="false"
+            isAbstract="false">
+            <actorMoniker
+              Id="e8674f3a-9182-40d3-ba36-bc897247ff2f"
+              LastKnownName="Instructor"
+              LastKnownLocation="N7_Project1_UML_Modeling.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="f44444bd-f698-40fc-bcdc-e30f3ce9f044"
+                  name="Start Application"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="54ec630b-1d1b-4338-879d-15f99ecdf83c"
+                  name="Instructor"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="8325d4cf-d785-48e2-921a-2369b3c2b388"
+        name="MissileLauncher"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="9310ea6e-ac8a-4fd3-9173-8d9cc6d7786d"
+        name="Move Turret Up"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="e736688a-d583-47f4-a2ba-823cb63c6724"
+        name="Turret Movement"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="62429f33-3ad8-4722-8ec5-8e621a877b63"
+            isDerived="false"
+            sourceEndRoleName="Move Turret"
+            targetEndRoleName="MissileLauncher"
+            isLeaf="false"
+            isAbstract="false">
+            <actorMoniker
+              Id="8325d4cf-d785-48e2-921a-2369b3c2b388"
+              LastKnownName="MissileLauncher"
+              LastKnownLocation="N7_Project1_UML_Modeling.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="b9945337-b341-4bad-90ab-4f1ff05e86f3"
+                  name="Move Turret"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="19bc5fb8-7397-4b8e-9e52-2340ef44428b"
+                  name="MissileLauncher"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <subjects>
+          <subsystemMoniker
+            Id="ab655061-d81a-46d4-95e6-ec71fb86f158"
+            LastKnownName="ASML"
+            LastKnownLocation="N7_Project1_UML_Modeling.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="47e1579a-6589-4dd7-9e3b-32884e8ed2f9"
+        name="Move Turret Left"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="5b2ef6c0-470b-4201-ba89-8d580b91edc9"
+        name="Move Turret Right&#xD;&#xA;"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="f7499aa7-ee04-4a71-b38d-6495cbc8e4c2"
+        name="Manual Fire Turret"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="4eb2237e-ddea-425b-a9f3-cd8e5c2f93d2"
+            isDerived="false"
+            sourceEndRoleName="Manual Fire Turret"
+            targetEndRoleName="Fire Turret"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="7af35279-5e13-47b1-a7b2-6c515de0a428"
+              LastKnownName="Fire Turret"
+              LastKnownLocation="N7_Project1_UML_Modeling.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="827b274d-73b6-4269-b553-7f73070eb884"
+                  name="Manual Fire Turret"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="66dd3d0e-158f-4b49-b989-21f270603d75"
+                  name="Fire Turret"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <additions>
+          <include
+            Id="5b06751f-65a0-4d7e-9474-b12d5c12495d">
+            <useCaseMoniker
+              Id="e736688a-d583-47f4-a2ba-823cb63c6724"
+              LastKnownName="Turret Movement"
+              LastKnownLocation="N7_Project1_UML_Modeling.uml" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker
+            Id="ab655061-d81a-46d4-95e6-ec71fb86f158"
+            LastKnownName="ASML"
+            LastKnownLocation="N7_Project1_UML_Modeling.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="2f75c67d-4f4e-466f-a349-87ee95d5f8f9"
+        name="Start Camera"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="4aa3cd4e-3deb-46a7-9b75-573f0e1fe891"
+            isDerived="false"
+            sourceEndRoleName="Start Camera"
+            targetEndRoleName="Camera"
+            isLeaf="false"
+            isAbstract="false">
+            <actorMoniker
+              Id="b9ff9165-86ec-4c00-a8bb-984c423aede7"
+              LastKnownName="Camera"
+              LastKnownLocation="N7_Project1_UML_Modeling.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="a1e55475-9664-4e0d-a207-6d40f898c9d7"
+                  name="Start Camera"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="524c2bd9-0a0a-4fca-a2d1-7372e593d46d"
+                  name="Camera"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="9c82cee4-fec8-4864-9b49-d160937fda0e"
+        name="Camera"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="90bb1db8-d392-4db3-af66-6af57d874fe4"
+        name="Target"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <subsystem
+        Id="ab655061-d81a-46d4-95e6-ec71fb86f158"
+        name="ASML"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="b9ff9165-86ec-4c00-a8bb-984c423aede7"
+        name="Camera"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="7af35279-5e13-47b1-a7b2-6c515de0a428"
+        name="Fire Turret"
+        isAbstract="false"
+        isLeaf="false">
+        <suppliersInternal>
+          <dependency
+            Id="ac736b3a-1a53-4f57-9b7e-5c71ac8e9161">
+            <actorMoniker
+              Id="8325d4cf-d785-48e2-921a-2369b3c2b388"
+              LastKnownName="MissileLauncher"
+              LastKnownLocation="N7_Project1_UML_Modeling.uml" />
+          </dependency>
+        </suppliersInternal>
+        <targetEnds>
+          <association
+            Id="ad92f708-a12e-4e32-ae59-866191baddc6"
+            isDerived="false"
+            sourceEndRoleName="Fire Turret"
+            targetEndRoleName="Target"
+            isLeaf="false"
+            isAbstract="false">
+            <actorMoniker
+              Id="90bb1db8-d392-4db3-af66-6af57d874fe4"
+              LastKnownName="Target"
+              LastKnownLocation="N7_Project1_UML_Modeling.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="a108cfed-0b86-42b1-8cfd-a661870288b2"
+                  name="Fire Turret"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="be7074df-596d-436d-b7a4-a815e8551902"
+                  name="Target"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <subjects>
+          <subsystemMoniker
+            Id="ab655061-d81a-46d4-95e6-ec71fb86f158"
+            LastKnownName="ASML"
+            LastKnownLocation="N7_Project1_UML_Modeling.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="b9224853-2b06-4772-a7f7-d1bb45a5b98b"
+        name="Stop Camera"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="75cdc061-1d10-4c5d-a258-baf94bfa0211"
+            isDerived="false"
+            sourceEndRoleName="Stop Camera"
+            targetEndRoleName="Camera"
+            isLeaf="false"
+            isAbstract="false">
+            <actorMoniker
+              Id="b9ff9165-86ec-4c00-a8bb-984c423aede7"
+              LastKnownName="Camera"
+              LastKnownLocation="N7_Project1_UML_Modeling.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="caa5b7fc-b45a-4920-b24d-7a7ea00f6902"
+                  name="Stop Camera"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="731cb9a3-6235-42a1-b623-95158ee4f5b3"
+                  name="Camera"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="ca98f709-cf97-40f4-a64c-5a9929d48d8a"
+        name="Ini/Xml Reader"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="f4a654c1-fd47-46bd-b0f7-d21ddb4b60e3"
+        name="Choose Ini/Xml File"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="e6a7dc79-63e5-4918-9684-7f2a96bad572"
+        name="Tester"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="bdc7edde-43d9-46fe-a0f8-4851b1cce68c"
+            isDerived="false"
+            sourceEndRoleName="Tester"
+            targetEndRoleName="Start Application"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="17bd3c01-2029-40a5-8aa2-3703b763b014"
+              LastKnownName="Start Application"
+              LastKnownLocation="N7_Project1_UML_Modeling.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="d9da802a-8ef6-42f4-8a89-abfc4f7fc9d1"
+                  name="Tester"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="b0d39606-f490-4c64-a8fb-d45e4acd033f"
+                  name="Start Application"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="22f6b939-8de9-4612-8f59-fcb3d7f500ce"
+            isDerived="false"
+            sourceEndRoleName="Tester"
+            targetEndRoleName="Load Configuration"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="cc4293ec-24f1-4533-b086-388a29d88c17"
+              LastKnownName="Load Configuration"
+              LastKnownLocation="N7_Project1_UML_Modeling.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="af0f705f-89e3-4874-a470-01bc271429cb"
+                  name="Tester"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="2bc4bee9-5135-4297-aab7-d07092bf4e00"
+                  name="Load Configuration"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="41696388-068b-4dfc-acf1-97449e51e861"
+            isDerived="false"
+            sourceEndRoleName="Tester"
+            targetEndRoleName="Turret Movement"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="e736688a-d583-47f4-a2ba-823cb63c6724"
+              LastKnownName="Turret Movement"
+              LastKnownLocation="N7_Project1_UML_Modeling.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="e3423bea-e476-40db-9d1f-fa4e90b57f20"
+                  name="Tester"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="4c782b1e-5884-46ac-85b7-ec1e334162fd"
+                  name="Turret Movement"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="2ceb69f2-414e-45cf-9d97-06c0acc59d38"
+            isDerived="false"
+            sourceEndRoleName="Tester"
+            targetEndRoleName="Manual Fire Turret"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="f7499aa7-ee04-4a71-b38d-6495cbc8e4c2"
+              LastKnownName="Manual Fire Turret"
+              LastKnownLocation="N7_Project1_UML_Modeling.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="4f0c7b84-dae2-4852-9ae5-a851887f41ec"
+                  name="Tester"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="08f1710e-ae6e-4cb5-b36c-c4ac20f6c1ce"
+                  name="Manual Fire Turret"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="17bd3c01-2029-40a5-8aa2-3703b763b014"
+        name="Start Application"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="78f66587-da4a-4e4d-93e6-496d2470b52f"
+            isDerived="false"
+            sourceEndRoleName="Start Application"
+            targetEndRoleName="GUI"
+            isLeaf="false"
+            isAbstract="false">
+            <actorMoniker
+              Id="f218b564-2a62-4c6b-b967-33a016fe5ce4"
+              LastKnownName="GUI"
+              LastKnownLocation="N7_Project1_UML_Modeling.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="0e8681bf-de14-4238-84aa-90f070d0a948"
+                  name="Start Application"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="c354a1a7-c1be-4452-a237-0d073c414478"
+                  name="GUI"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="8de45d38-bd31-414c-9831-91e57b208f59"
+            isDerived="false"
+            sourceEndRoleName="Start Application"
+            targetEndRoleName="MissileLauncher"
+            isLeaf="false"
+            isAbstract="false">
+            <actorMoniker
+              Id="8325d4cf-d785-48e2-921a-2369b3c2b388"
+              LastKnownName="MissileLauncher"
+              LastKnownLocation="N7_Project1_UML_Modeling.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="241c5f1c-f63a-4851-b8e9-c4d85002bc06"
+                  name="Start Application"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="475dfa46-b296-4aca-b3f4-a81cb9784e3c"
+                  name="MissileLauncher"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <subjects>
+          <subsystemMoniker
+            Id="ab655061-d81a-46d4-95e6-ec71fb86f158"
+            LastKnownName="ASML"
+            LastKnownLocation="N7_Project1_UML_Modeling.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="f218b564-2a62-4c6b-b967-33a016fe5ce4"
+        name="GUI"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="cc4293ec-24f1-4533-b086-388a29d88c17"
+        name="Load Configuration"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="a30f8158-7b7c-4f9c-b88c-e5f5224c2f38"
+            isDerived="false"
+            sourceEndRoleName="Load Configuration"
+            targetEndRoleName="GUI"
+            isLeaf="false"
+            isAbstract="false">
+            <actorMoniker
+              Id="f218b564-2a62-4c6b-b967-33a016fe5ce4"
+              LastKnownName="GUI"
+              LastKnownLocation="N7_Project1_UML_Modeling.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="26eb0f69-08d5-4656-9328-bca5d7ad1413"
+                  name="Load Configuration"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="ee5d7afb-e4b0-4279-9bd9-0fc94f4eb9bd"
+                  name="GUI"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <subjects>
+          <subsystemMoniker
+            Id="ab655061-d81a-46d4-95e6-ec71fb86f158"
+            LastKnownName="ASML"
+            LastKnownLocation="N7_Project1_UML_Modeling.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="8c96b65c-07a8-4cc5-9c26-de4faa064b64"
+        name="Ini/Xml Reader"
+        isAbstract="false"
+        isLeaf="false">
+        <additions>
+          <include
+            Id="b45bd0ef-0be2-4081-84c5-8c1f902c68ea">
+            <useCaseMoniker
+              Id="cc4293ec-24f1-4533-b086-388a29d88c17"
+              LastKnownName="Load Configuration"
+              LastKnownLocation="N7_Project1_UML_Modeling.uml" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker
+            Id="ab655061-d81a-46d4-95e6-ec71fb86f158"
+            LastKnownName="ASML"
+            LastKnownLocation="N7_Project1_UML_Modeling.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+  </packagedElements>
+  <primitiveType
+    Id="220a3521-e091-4221-bae9-3ef9018e845c"
+    name="Integer"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+    name="Boolean"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+    name="String"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
+    name="UnlimitedNatural"
+    isAbstract="false"
+    isLeaf="false" />
+</modelStoreModel>

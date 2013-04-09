@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="6c0f63b2-d6a0-452e-b14a-385ecf24bf13"
+  name="WebcamControl"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="cf9e19f3-234d-4e65-a4d8-e7620a967136"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DWebcamControl"
+      tag="ViewCode" />
+  </referencesInternal>
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="11d8c4af-7498-4fc3-a5f5-820f6794804b">
+      <profileInstance
+        Id="0957a48a-754c-4ec2-98cb-1d5f6f87cca0"
+        name="CSharpProfile" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="e0e09df3-abab-4040-815b-a350d56e865c"
+        name="Webcam"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="64f6e66b-85d1-44b4-9d40-03c67148c887"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Fzackary%2FDocuments%2FWSU%2Fcpts323%2FHomework%2FProject-1%2FTest_Code%2FASML-N7%2FASML-N7%2Fbin%2FDebug%2FWebcamControl.dll Namespace%3DWebcamControl Type%3DWebcam"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="061e3fa5-5364-46fb-aba7-5c3a802680f1"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="acf1a90d-4838-44db-85b2-efaa3645c845">
+                <propertyInstance
+                  Id="a4a7b468-c46a-4653-8c8b-05f01a83ccb8"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="da31244c-a58b-428b-8023-6bc580e788f0">
+                <propertyInstance
+                  Id="7b11f49d-0520-4b6b-a0dc-babc5f03d562"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1138fda7-9936-40c2-9628-4d013de97305">
+                <propertyInstance
+                  Id="e4a73d67-8368-4343-aa65-367329100c01"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3e3d4dca-0e65-4edb-9d48-645e9c5d1277">
+                <propertyInstance
+                  Id="4b38a864-e885-4e03-b1f8-4a1be1783e47"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c06e206a-35de-42a2-acd3-761fccd25de8">
+                <propertyInstance
+                  Id="543d4acc-f525-4d73-b014-8532e02f9637"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="58e28235-c287-4f76-acd3-19bdbba887bd">
+            <interfaceMoniker
+              Id="90f0e8f3-6dda-46c5-a071-2f0983475c40"
+              LastKnownName="IComponentConnector"
+              LastKnownLocation="Package10_0854.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

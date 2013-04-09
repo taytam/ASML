@@ -1,0 +1,38 @@
+3/22/2013 10:57:51 AM
+Name= 
+	XPos= 4
+	yPos= 323
+	zPos= 3212
+	isFriend= False
+
+Name= 
+	XPos= 3
+	yPos= 323
+	zPos= 3212
+	isFriend= True
+
+Name= 
+	XPos= 3
+	yPos= 323
+	zPos= 3212
+	isFriend= False
+
+3/22/2013 3:54:29 PM
+Name= 
+	XPos= 4
+	yPos= 323
+	zPos= 3212
+	isFriend= False
+
+Name= 
+	XPos= 3
+	yPos= 323
+	zPos= 3212
+	isFriend= True
+
+Name= 
+	XPos= 3
+	yPos= 323
+	zPos= 3212
+	isFriend= False
+

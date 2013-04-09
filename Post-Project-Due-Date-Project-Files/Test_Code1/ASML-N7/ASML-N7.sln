@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASML-N7", "ASML-N7\ASML-N7.csproj", "{B082ECF0-987E-4376-B497-AF0FCDD5385C}"
+EndProject
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "N7_Project1_UML_Modeling", "N7_Project1_UML_Modeling\N7_Project1_UML_Modeling.modelproj", "{4270690D-4F7F-4042-8C25-8869A31F8C2F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B082ECF0-987E-4376-B497-AF0FCDD5385C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B082ECF0-987E-4376-B497-AF0FCDD5385C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B082ECF0-987E-4376-B497-AF0FCDD5385C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B082ECF0-987E-4376-B497-AF0FCDD5385C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4270690D-4F7F-4042-8C25-8869A31F8C2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4270690D-4F7F-4042-8C25-8869A31F8C2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4270690D-4F7F-4042-8C25-8869A31F8C2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4270690D-4F7F-4042-8C25-8869A31F8C2F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
