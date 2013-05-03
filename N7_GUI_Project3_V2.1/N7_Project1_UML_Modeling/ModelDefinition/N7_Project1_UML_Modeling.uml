@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm9="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner" xmlns:dm10="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" xmlns:dm11="http://schemas.microsoft.com/dsltools/UseCaseModel" xmlns:dm12="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" xmlns:dm9="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ComponentDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm11="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm12="http://schemas.microsoft.com/dsltools/UseCaseModel"
   dslVersion="1.0.0.0"
   Id="3d8623ca-206a-4281-843d-f5cf4c75d9f0"
   name="N7_Project1_UML_Modeling" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
@@ -15135,6 +15135,305 @@
             isLeaf="false" />
         </nodes>
       </activity>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <component
+        Id="2340d2fe-3750-49e7-a2ca-69a4b022368e"
+        name="Camera"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedAttributesInternal>
+          <providedInterface
+            Id="a04ef3d5-1496-4d28-8dda-a59c6f4b9d59"
+            name="Port1"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false"
+            isService="false"
+            isBehavior="false">
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="21facc38-e209-4c71-a630-0e31fb26d1d5"
+                LastKnownName="GUI"
+                LastKnownLocation="N7_Project1_UML_Modeling.uml" />
+            </type_NamedElement>
+          </providedInterface>
+        </ownedAttributesInternal>
+      </component>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <component
+        Id="ad78963d-76f6-40c4-8b60-7e79e829fcee"
+        name="IMissileLauncher"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedAttributesInternal>
+          <providedInterface
+            Id="6e6a022b-fffe-4d57-b163-a57f6b628e60"
+            name="Port1"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false"
+            isService="false"
+            isBehavior="false">
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="903f3f71-d01e-4c1b-bd21-c09ead8d7c56"
+                LastKnownName="IMissileLauncher"
+                LastKnownLocation="N7_Project1_UML_Modeling.uml" />
+            </type_NamedElement>
+          </providedInterface>
+          <requiredInterface
+            Id="44e047bc-e56b-4614-81a1-d09ef957a7b9"
+            name="Port2"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false"
+            isService="false"
+            isBehavior="false">
+            <suppliersInternal>
+              <dependency
+                Id="c6c099c2-2c6c-4873-b66e-634c74555f0c">
+                <providedInterfaceMoniker
+                  Id="5a37f3f6-b207-4954-ab04-ec4d458d8a58"
+                  LastKnownName="Port1"
+                  LastKnownLocation="N7_Project1_UML_Modeling.uml" />
+              </dependency>
+            </suppliersInternal>
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="05f7289e-5d72-4841-a636-53528186e32c"
+                LastKnownName="IMissilLauncher"
+                LastKnownLocation="N7_Project1_UML_Modeling.uml" />
+            </type_NamedElement>
+          </requiredInterface>
+        </ownedAttributesInternal>
+      </component>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <component
+        Id="fc85763c-0fd8-47be-8bfa-4f6f2d096bb6"
+        name="Launcher Adapter"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedAttributesInternal>
+          <providedInterface
+            Id="775d5410-89c3-4c88-bcdf-cfda05101b03"
+            name="Port1"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false"
+            isService="false"
+            isBehavior="false">
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="00e0b931-24c8-47ca-af39-584ab4533881"
+                LastKnownName="LauncherAdapter"
+                LastKnownLocation="N7_Project1_UML_Modeling.uml" />
+            </type_NamedElement>
+          </providedInterface>
+          <requiredInterface
+            Id="9cd8a14a-5397-48b7-8eab-ea45be5bf6dd"
+            name="Port2"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false"
+            isService="false"
+            isBehavior="false">
+            <suppliersInternal>
+              <dependency
+                Id="7cf7d240-2e45-4caa-9df0-04c910a0a103">
+                <providedInterfaceMoniker
+                  Id="6e6a022b-fffe-4d57-b163-a57f6b628e60"
+                  LastKnownName="Port1"
+                  LastKnownLocation="N7_Project1_UML_Modeling.uml" />
+              </dependency>
+            </suppliersInternal>
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="a22f213c-938f-4558-91ee-37aed10ad6b7"
+                LastKnownName="Launcher Adapter"
+                LastKnownLocation="N7_Project1_UML_Modeling.uml" />
+            </type_NamedElement>
+          </requiredInterface>
+        </ownedAttributesInternal>
+      </component>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <component
+        Id="c005aea7-7b40-48a6-985e-2b8885040336"
+        name="GUI"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedAttributesInternal>
+          <requiredInterface
+            Id="54f4b9c7-0837-4549-be3d-a06fd8ffee91"
+            name="Port1"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false"
+            isService="false"
+            isBehavior="false">
+            <suppliersInternal>
+              <dependency
+                Id="182182e0-27dc-409f-97c3-13ab646e968d">
+                <providedInterfaceMoniker
+                  Id="a04ef3d5-1496-4d28-8dda-a59c6f4b9d59"
+                  LastKnownName="Port1"
+                  LastKnownLocation="N7_Project1_UML_Modeling.uml" />
+              </dependency>
+            </suppliersInternal>
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="ad5c827f-3124-4a67-b377-88e44b998ae1"
+                LastKnownName="Camera"
+                LastKnownLocation="N7_Project1_UML_Modeling.uml" />
+            </type_NamedElement>
+          </requiredInterface>
+          <requiredInterface
+            Id="49510820-8d4b-424a-958f-87e1de554999"
+            name="Port2"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false"
+            isService="false"
+            isBehavior="false">
+            <suppliersInternal>
+              <dependency
+                Id="9f3b8ca6-e8b6-40f1-a21e-4ab3f1d3b484">
+                <providedInterfaceMoniker
+                  Id="775d5410-89c3-4c88-bcdf-cfda05101b03"
+                  LastKnownName="Port1"
+                  LastKnownLocation="N7_Project1_UML_Modeling.uml" />
+              </dependency>
+            </suppliersInternal>
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="28f91444-3960-4a43-8a2b-3b1403c29879"
+                LastKnownName="GUI"
+                LastKnownLocation="N7_Project1_UML_Modeling.uml" />
+            </type_NamedElement>
+          </requiredInterface>
+        </ownedAttributesInternal>
+      </component>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="21facc38-e209-4c71-a630-0e31fb26d1d5"
+        name="GUI"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="ad5c827f-3124-4a67-b377-88e44b998ae1"
+        name="Camera"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="28f91444-3960-4a43-8a2b-3b1403c29879"
+        name="GUI"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="00e0b931-24c8-47ca-af39-584ab4533881"
+        name="LauncherAdapter"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="a22f213c-938f-4558-91ee-37aed10ad6b7"
+        name="Launcher Adapter"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="903f3f71-d01e-4c1b-bd21-c09ead8d7c56"
+        name="IMissileLauncher"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="05f7289e-5d72-4841-a636-53528186e32c"
+        name="IMissilLauncher"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <component
+        Id="dfae9284-3531-46c6-be6b-8fefc019b453"
+        name="MissileLauncher"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedAttributesInternal>
+          <providedInterface
+            Id="5a37f3f6-b207-4954-ab04-ec4d458d8a58"
+            name="Port1"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false"
+            isService="false"
+            isBehavior="false">
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="91b33a36-60b7-45f7-9bc8-155254fdaa59"
+                LastKnownName="MissileLauncher"
+                LastKnownLocation="N7_Project1_UML_Modeling.uml" />
+            </type_NamedElement>
+          </providedInterface>
+        </ownedAttributesInternal>
+      </component>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="91b33a36-60b7-45f7-9bc8-155254fdaa59"
+        name="MissileLauncher"
+        isAbstract="false"
+        isLeaf="false" />
     </packageHasNamedElement>
   </packagedElements>
   <primitiveType
