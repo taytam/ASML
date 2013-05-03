@@ -1,0 +1,530 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="f77a380f-7f91-4eaf-a6af-7ef9761d4b10" name="N7_Project2_UML_Use_Case_Diagram" linkedPackageId="fb871b95-f7f5-4617-9212-d2aca1bda152" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <profileInstances>
+    <packageHasProfileInstances Id="e790f930-082d-4856-b677-44aa23d9861a">
+      <profileInstance Id="b85b47c7-db93-4f9f-8ff9-f9b8e300b147" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="c4504a0f-ea16-4e59-b086-0090ff321137">
+      <profileInstance Id="5d5c64cf-c119-41ce-8ec0-71747a872d5d" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="0e2af852-7f4b-498b-9d92-b915a6e44120">
+      <profileInstance Id="53727b37-942b-4c36-9171-5ca04c5d220a" name="CSharpProfile">
+        <elementDefinition Id="1f796a69-104d-47fa-8f23-e4bac6797e42" />
+      </profileInstance>
+      <elementDefinition Id="5453756a-8c94-4568-bc9a-4d628c44c8cc" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="99a0add5-91bd-471b-87fa-bdb044d79405" name="Instructor1" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="7556ba22-7931-4e4f-85fb-24158a77fcc5" />
+        <targetEnds>
+          <association Id="b3d4a310-2a20-4281-bd71-cbef2a72273d" isDerived="false" sourceEndRoleName="Instructor" targetEndRoleName="Manual Fire Turret" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="c6f09d70-9c32-4c9b-95d2-c00f36711e28" LastKnownName="Manual Fire Turret1" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="cdb43c46-c06f-4fda-b076-88992f5605b2" name="Instructor" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="ea1f952d-0555-4f7a-b797-e2cc9f522b30" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="457e1a11-f1eb-42bb-b27b-a3fbbe5bf953" name="Manual Fire Turret" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="404e8ced-6ffa-4d54-b2cf-08ec39fb74d0" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="8bca7219-57ca-44c6-a2c5-0b3ee52c228a" />
+          </association>
+          <association Id="207d302d-cbff-437d-b849-06017eebe4f2" isDerived="false" sourceEndRoleName="Instructor" targetEndRoleName="Turret Movement" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="20e3510b-4bb4-45cc-b4d8-71da42d97be9" LastKnownName="Turret Movement1" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a4ec234a-2318-4dd0-9b23-8ab26c4ab67e" name="Instructor" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="d9ce3796-a0c1-4819-8a8a-ef1bdb8891d4" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="7c760325-6bb3-46fa-9529-ae034b2406d4" name="Turret Movement" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="7a648afe-a021-47f4-aec2-20f9eb94038b" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="4e2d4a0c-05a6-4575-afe2-b5a44973cc5b" />
+          </association>
+          <association Id="01fefee7-3dde-4471-9832-3fc0ccae7027" isDerived="false" sourceEndRoleName="Instructor" targetEndRoleName="Start Application" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="98576c33-05c7-4f29-b387-4224d3591748" LastKnownName="Start Application1" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="0b38828c-ab2c-49fa-a960-3b5a849290a2" name="Instructor" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="858d7f44-62e3-441b-a604-5e0b60cb6fa8" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="4dcac21e-bd65-47ef-bd7b-5fa15abce8dd" name="Start Application" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="288aecde-4cc1-484f-8690-c2f9174b2cbd" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="f8d45837-aa89-44a7-b452-e4e1161b9115" />
+          </association>
+          <association Id="199550ea-d51b-42c1-ba22-7aa9d268b901" isDerived="false" sourceEndRoleName="Instructor" targetEndRoleName="Load Configuration" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="c1bd5fba-2a9b-482c-a7f9-03287a05b3a8" LastKnownName="Configuration button" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="d5886c3e-76c4-42a4-bf92-7f7f0451886b" name="Instructor" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="5b401e8d-a7d4-4c27-9125-8111f5aba849" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="764061fc-7a58-4d57-9efe-53d78e6bd889" name="Load Configuration" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="47f9c982-2da9-4606-bf77-23830acc202e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="b61e2e72-372c-4089-918e-3f52aae4ae74" />
+          </association>
+          <association Id="e15b53dc-8870-4ad4-8bad-e446b7b43bfd" isDerived="false" sourceEndRoleName="Instructor" targetEndRoleName="Idol mode" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="91857dfb-9bb8-48f6-a271-56f30cade499" LastKnownName="Idol mode" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="cd38cfd9-ec03-4324-bb2b-3eefe15e9d1a" name="Instructor" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="c6ca309d-309c-4ef8-8712-3f9daba48740" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="1f66afeb-806c-4942-b40b-552ecd3fd79e" name="Idol mode" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="4cfff1f1-68e6-4b36-bd70-a36fcf851494" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="d16e33c4-0fe2-4c22-9863-997d388d815f" />
+          </association>
+          <association Id="aa158ffb-e93b-44ef-acde-10d94c21d9dc" isDerived="false" sourceEndRoleName="Instructor" targetEndRoleName="Load Target Info" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="c62b48f0-a6d9-48be-85d5-407989c272c7" LastKnownName="Load Target Info" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="cb748015-800a-4f3b-a222-a60a99e952d2" name="Instructor" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="ddad7861-221f-49d9-9525-52447eb4a348" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="f6f5fbdb-a7e0-4f0f-a109-5b80bf46948a" name="Load Target Info" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="cf3a5593-99e9-4ab5-bf40-6d9fbca66d68" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="a13883a7-256c-4fc1-8a17-2842d298bc07" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="2d184956-0f24-4e03-a068-59155f7de93e" name="MissileLauncher2" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="656feb11-9b44-4adc-9087-6023aaa52326" />
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="ff625209-6b0f-4a87-a354-5a895cbbdb23" name="Camera1" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="efbb6fd1-19d8-445f-8188-69a697c85276" />
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="fdb62259-bbd6-49aa-91ad-74b137cd58c8" name="Physical Target1" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="a1485a4b-d25d-4aaa-bf90-5cfcb35659de" />
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="6f46d27f-d78e-44c6-9540-f40cb99c78bd" name="GUI1" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="906f28a0-2884-4ce9-9e6b-cc9fca9e54f9" />
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <subsystem Id="458340b3-640c-41cf-852a-546a072a63a3" name="ASML1" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="aba8b689-fbb5-4763-838b-e1b8792fb80b" />
+      </subsystem>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="20e3510b-4bb4-45cc-b4d8-71da42d97be9" name="Turret Movement1" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="58809df1-815a-46a7-a45a-6a1abe5f9177" />
+        <targetEnds>
+          <association Id="8600345c-eb4f-4632-bd4d-ebaccbd305fc" isDerived="false" sourceEndRoleName="Move Turret" targetEndRoleName="MissileLauncher" isLeaf="false" isAbstract="false">
+            <actorMoniker Id="2d184956-0f24-4e03-a068-59155f7de93e" LastKnownName="MissileLauncher2" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="86460d7d-3956-4c24-8b0f-db9a800e755e" name="Move Turret" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="ccc57595-dc77-48fa-b239-ad5741f83272" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="2e928808-9df1-4209-9965-b126229705e9" name="MissileLauncher" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="5e702715-a3f8-412e-a90f-2957ade0468e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="a8c55e10-f5ed-489e-bef2-c75014dc9c26" />
+          </association>
+        </targetEnds>
+        <subjects>
+          <subsystemMoniker Id="458340b3-640c-41cf-852a-546a072a63a3" LastKnownName="ASML1" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="c6f09d70-9c32-4c9b-95d2-c00f36711e28" name="Manual Fire Turret1" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="2378e220-31ce-4637-9fa3-1f4d051ddc96" />
+        <targetEnds>
+          <association Id="4b236a31-9575-4e1b-9e82-dd7b028cd759" isDerived="false" sourceEndRoleName="Manual Fire Turret" targetEndRoleName="Fire Turret" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="5c768843-433c-4ee5-b8ce-ee7f606d9065" LastKnownName="Fire Turret1" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="cbd06d9e-dd68-42e9-ba74-03e9689b242b" name="Manual Fire Turret" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="c435155a-cc4a-46e2-934f-942d4c7b3bde" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="5f2c1493-8986-4ad7-a278-b156393e8e5c" name="Fire Turret" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="29f641ed-31c5-4b00-a402-b9a7a1789b67" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="77e48b3f-5092-418a-8b46-cacef45c26d2" />
+          </association>
+        </targetEnds>
+        <additions>
+          <include Id="356aaadd-9e91-4978-8aad-f2c0cb01ad7a">
+            <useCaseMoniker Id="20e3510b-4bb4-45cc-b4d8-71da42d97be9" LastKnownName="Turret Movement1" />
+            <elementDefinition Id="c170b1dd-7cc5-43f7-bb28-b7381c9b7742" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker Id="458340b3-640c-41cf-852a-546a072a63a3" LastKnownName="ASML1" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="5c768843-433c-4ee5-b8ce-ee7f606d9065" name="Fire Turret1" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="8b8c76fe-25d3-4e35-90c8-5d96e04c1ac3" />
+        <suppliersInternal>
+          <dependency Id="7a4e56a5-8fda-49d3-9904-c2a2f0af1a07">
+            <actorMoniker Id="2d184956-0f24-4e03-a068-59155f7de93e" LastKnownName="MissileLauncher2" />
+            <elementDefinition Id="7e433ac0-ae07-4182-a0ee-ea6860bf8eef" />
+          </dependency>
+        </suppliersInternal>
+        <targetEnds>
+          <association Id="73032ba5-2710-4199-8176-c0ea656434af" isDerived="false" sourceEndRoleName="Fire Turret" targetEndRoleName="Target" isLeaf="false" isAbstract="false">
+            <actorMoniker Id="fdb62259-bbd6-49aa-91ad-74b137cd58c8" LastKnownName="Physical Target1" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="56384699-f40c-40f9-b489-e604d746c737" name="Fire Turret" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="a4e69da1-5989-471a-bd2c-519c3d5b1b7f" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="8aa1c370-2c2f-40ff-adaf-6bb6c71bcd6a" name="Target" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="845f6b13-0913-4595-9439-3876b6bf2556" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="d11b35b2-a2ee-4056-96c8-a5a7931e9865" />
+          </association>
+        </targetEnds>
+        <subjects>
+          <subsystemMoniker Id="458340b3-640c-41cf-852a-546a072a63a3" LastKnownName="ASML1" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="98576c33-05c7-4f29-b387-4224d3591748" name="Start Application1" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="a15fedfd-a863-4296-977e-98270eec79ba" />
+        <targetEnds>
+          <association Id="4a8c4e9f-8fbc-49fc-be25-735b94c7997d" isDerived="false" sourceEndRoleName="Start Application" targetEndRoleName="GUI" isLeaf="false" isAbstract="false">
+            <actorMoniker Id="6f46d27f-d78e-44c6-9540-f40cb99c78bd" LastKnownName="GUI1" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="410bb969-badb-4858-8ba9-55fddb97ce45" name="Start Application" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="5584fa34-40ea-4590-afc0-19c138adbd3d" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c96aee42-7801-42d9-aa7d-8c621ffbc560" name="GUI" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="99ae07d0-89e5-46f1-889b-e7cddd041387" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="cc361c33-d222-4cf9-8558-9523ec9b72dc" />
+          </association>
+          <association Id="c7d3ef94-bd81-4113-a4f0-d6dec85a0021" isDerived="false" sourceEndRoleName="Start Application" targetEndRoleName="MissileLauncher" isLeaf="false" isAbstract="false">
+            <actorMoniker Id="2d184956-0f24-4e03-a068-59155f7de93e" LastKnownName="MissileLauncher2" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="7ad3646b-8018-4124-bd33-a5f35dc1cab7" name="Start Application" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="3e0a54a5-f8f4-4411-9b3c-9357f55023f9" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="7c46faba-6c37-471a-b86c-27964d899683" name="MissileLauncher" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="ea4bf71b-ef6e-4796-9511-9f41b15255ce" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="6f45c169-c325-4068-bd2a-93b336ec3286" />
+          </association>
+        </targetEnds>
+        <subjects>
+          <subsystemMoniker Id="458340b3-640c-41cf-852a-546a072a63a3" LastKnownName="ASML1" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="c1bd5fba-2a9b-482c-a7f9-03287a05b3a8" name="Configuration button" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="a4587bbd-b8ab-41ca-9651-9c5a08dffd4d" />
+        <targetEnds>
+          <association Id="67c4f9a8-58ac-432d-a836-360a5a3a752e" isDerived="false" sourceEndRoleName="Load Configuration" targetEndRoleName="GUI" isLeaf="false" isAbstract="false">
+            <actorMoniker Id="6f46d27f-d78e-44c6-9540-f40cb99c78bd" LastKnownName="GUI1" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ac6b6374-ca89-43f7-9cf4-0ee4957e5f34" name="Load Configuration" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="64e7eb62-500c-4b83-b586-e4a79c0df165" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="5c860adc-3f4f-4df4-bbf7-ec6951acdd16" name="GUI" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="75acaa48-a649-4d53-8fb9-900d06be62bc" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="bc13aa92-7eb7-45e4-9832-4f300b4e043e" />
+          </association>
+        </targetEnds>
+        <additions>
+          <include Id="f6619150-8030-4491-ad81-ac0dcf0469f6">
+            <useCaseMoniker Id="7788c135-c496-476d-89ce-dc47970241de" LastKnownName="Windows Explorer" />
+            <elementDefinition Id="23132cbc-4844-4530-b12f-a7d4cae5099e" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker Id="458340b3-640c-41cf-852a-546a072a63a3" LastKnownName="ASML1" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="ffcab883-2feb-4e71-a80e-42ca4408f14e" name="Launcher left  movement" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="1880a9cb-d9ae-4846-a402-df7227382b0b" />
+        <additions>
+          <include Id="453813c3-0010-41ac-a2c6-8597b2f869fc">
+            <useCaseMoniker Id="20e3510b-4bb4-45cc-b4d8-71da42d97be9" LastKnownName="Turret Movement1" />
+            <elementDefinition Id="13121f64-f21a-4920-8b68-588cd78064a1" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker Id="458340b3-640c-41cf-852a-546a072a63a3" LastKnownName="ASML1" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="b9fb0a68-47c8-4605-864f-a9a7d36bb8cc" name="Launcher right movement" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="1800cab4-25d8-4c04-9904-2e1acb16c3c0" />
+        <additions>
+          <include Id="b4266ada-1d72-4c93-9d5e-44b886dc9ee1">
+            <useCaseMoniker Id="20e3510b-4bb4-45cc-b4d8-71da42d97be9" LastKnownName="Turret Movement1" />
+            <elementDefinition Id="49fe0163-95fd-4e61-8962-afcc1107b849" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker Id="458340b3-640c-41cf-852a-546a072a63a3" LastKnownName="ASML1" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="6cfd9888-bf0d-4b76-b38b-34fcbe12df14" name="Launcher up  movement" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="9a95326b-b4c4-45b3-a114-e0a4d9826bdb" />
+        <additions>
+          <include Id="f7a0b70b-29fe-4830-94b1-e8ea19fb753e">
+            <useCaseMoniker Id="20e3510b-4bb4-45cc-b4d8-71da42d97be9" LastKnownName="Turret Movement1" />
+            <elementDefinition Id="0f9692f2-13a6-4525-af46-fa62968f7de8" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker Id="458340b3-640c-41cf-852a-546a072a63a3" LastKnownName="ASML1" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="37e78a2f-383b-4103-b9ad-dabd2ef95580" name="Launcher down  movement" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="f26ae609-4cce-4dc0-a014-5e11587baa0f" />
+        <additions>
+          <include Id="53374d8d-4139-4c4c-bf26-923f06b812fd">
+            <useCaseMoniker Id="20e3510b-4bb4-45cc-b4d8-71da42d97be9" LastKnownName="Turret Movement1" />
+            <elementDefinition Id="16b55281-4c89-4a0c-aa81-59ae808d4102" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker Id="458340b3-640c-41cf-852a-546a072a63a3" LastKnownName="ASML1" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="91857dfb-9bb8-48f6-a271-56f30cade499" name="Idol mode" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="261472eb-6e85-4f67-bc7f-0819d1532977" />
+        <targetEnds>
+          <association Id="eb5e5de5-3435-4a79-b21d-91db89d9cd44" isDerived="false" sourceEndRoleName="Idol mode" targetEndRoleName="Launcher right movement" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="b9fb0a68-47c8-4605-864f-a9a7d36bb8cc" LastKnownName="Launcher right movement" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="2a43bdc4-1c10-43f4-9c20-63cb4309dc3a" name="Idol mode" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="e8d555e8-3e10-42fc-9294-aeb2f2924372" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="16485315-b991-4601-b734-772676f1092c" name="Launcher right movement" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="ddc8e450-9b91-4f16-9dab-c260fc2bbaa6" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="3c6d7db5-5c3a-4b86-9450-8cf3446a12c6" />
+          </association>
+          <association Id="7600c394-74e6-441e-a324-2acba2e26e8e" isDerived="false" sourceEndRoleName="Idol mode" targetEndRoleName="Launcher left  movement" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="ffcab883-2feb-4e71-a80e-42ca4408f14e" LastKnownName="Launcher left  movement" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="46739369-d808-441c-a234-843175c373d2" name="Idol mode" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="52c020bb-d700-463c-bd3e-43f6cfd40b06" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="6234254d-c8a0-47fa-a07c-20bc486bab87" name="Launcher left  movement" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="083b9c8c-b4b0-43a9-855c-0334d85a15dd" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="b4ddeb64-1887-4def-9d40-88296733c833" />
+          </association>
+          <association Id="b59caf3e-81c0-4283-a157-b8f0c3abb682" isDerived="false" sourceEndRoleName="Idol mode" targetEndRoleName="Launcher down  movement" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="37e78a2f-383b-4103-b9ad-dabd2ef95580" LastKnownName="Launcher down  movement" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="9532e466-6ba9-4f21-a01f-1ef9a47a103a" name="Idol mode" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="67c4933b-58f6-45a6-a9f8-38504d2374a6" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="77abb97c-5d5c-461b-a0b2-3e10913a0112" name="Launcher down  movement" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="5c073e67-0e74-473c-9ab9-44f2469e1f02" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="2b44e799-91c0-44eb-818e-2b91d6a248e2" />
+          </association>
+          <association Id="4d9c2d96-fb1d-4af5-a3e0-4a4cd3e4a9e3" isDerived="false" sourceEndRoleName="Idol mode" targetEndRoleName="Launcher up  movement" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="6cfd9888-bf0d-4b76-b38b-34fcbe12df14" LastKnownName="Launcher up  movement" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="220f4906-4681-4ea6-b337-c24bb5cc8d6f" name="Idol mode" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="a2237b81-8694-409c-8e11-987a4ae555c2" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="107b808c-2c00-422a-a3b9-9cf97260e3bf" name="Launcher up  movement" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="2b8d63fb-fdec-48d5-8316-c5c9b7b07ed1" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="064856dc-b7a4-41ce-ba00-ad7761baad6c" />
+          </association>
+        </targetEnds>
+        <subjects>
+          <subsystemMoniker Id="458340b3-640c-41cf-852a-546a072a63a3" LastKnownName="ASML1" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="7788c135-c496-476d-89ce-dc47970241de" name="Windows Explorer" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="cf29c891-f589-43e0-911f-26c74626b315" />
+        <subjects>
+          <subsystemMoniker Id="458340b3-640c-41cf-852a-546a072a63a3" LastKnownName="ASML1" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="c62b48f0-a6d9-48be-85d5-407989c272c7" name="Load Target Info" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="ae28f136-5cb1-4dca-9d84-c20bae8f9c68" />
+        <suppliersInternal>
+          <dependency Id="c992f5b8-5fe8-414c-b563-372e3ece0ced">
+            <useCaseMoniker Id="c1bd5fba-2a9b-482c-a7f9-03287a05b3a8" LastKnownName="Configuration button" />
+            <elementDefinition Id="846d9f88-9633-4529-b59a-f3c63af76bc3" />
+          </dependency>
+        </suppliersInternal>
+        <targetEnds>
+          <association Id="7aa37487-0a6f-4f71-ae68-128343d90f22" isDerived="false" sourceEndRoleName="Load Target Info" targetEndRoleName="Target Listbox on GUI" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="85ec6b34-5cf2-4213-a778-b08966b96e3a" LastKnownName="Target Listbox on GUI" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="02137308-192c-4af1-8b05-63fb0cfc1e52" name="Load Target Info" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="1360b619-19ed-486e-8a2e-f256517262da" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="dc2d54d8-daf1-48fd-a6e6-b145d6afe355" name="Target Listbox on GUI" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="3ace6499-def7-41f5-9dff-d170bdcf80a0" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="4645949e-9c75-4747-9029-28d868028b61" />
+          </association>
+        </targetEnds>
+        <additions>
+          <include Id="51013b73-644d-4d74-b2d9-6b0198b4a6eb">
+            <useCaseMoniker Id="cd1d8ddb-7150-4f16-b70f-ef3b36414ef3" LastKnownName="Ini/Xml reader" />
+            <elementDefinition Id="315823d0-20d1-4dd7-88eb-fd6bc2d9d44d" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker Id="458340b3-640c-41cf-852a-546a072a63a3" LastKnownName="ASML1" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="cd1d8ddb-7150-4f16-b70f-ef3b36414ef3" name="Ini/Xml reader" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="c594c2b6-04ef-4a9c-a40a-3e65b5b64af9" />
+        <subjects>
+          <subsystemMoniker Id="458340b3-640c-41cf-852a-546a072a63a3" LastKnownName="ASML1" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="85ec6b34-5cf2-4213-a778-b08966b96e3a" name="Target Listbox on GUI" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="17365942-d461-4ba3-9984-61fb79994253" />
+        <targetEnds>
+          <association Id="b044dc05-0060-4509-ad52-3e36947e3fd2" isDerived="false" sourceEndRoleName="Target Listbox on GUI" targetEndRoleName="GUI" isLeaf="false" isAbstract="false">
+            <actorMoniker Id="6f46d27f-d78e-44c6-9540-f40cb99c78bd" LastKnownName="GUI1" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="fe38c6bf-f8bd-49c9-8124-aebe5efc6868" name="Target Listbox on GUI" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="0a1d6f04-c839-4b19-b47a-233997030465" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="35a4476d-1709-4a0a-b2d4-64c2710b658e" name="GUI" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="ed9fb31b-1c52-478d-ad3c-4537cb67d905" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="cca76a15-e1fa-4688-abe6-8106516fc15d" />
+          </association>
+        </targetEnds>
+        <subjects>
+          <subsystemMoniker Id="458340b3-640c-41cf-852a-546a072a63a3" LastKnownName="ASML1" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+  </packagedElements>
+  <package Id="fb871b95-f7f5-4617-9212-d2aca1bda152" name="N7_Project1_UML_Modeling">
+    <elementDefinition Id="3d8623ca-206a-4281-843d-f5cf4c75d9f0" />
+  </package>
+</useCaseModelRoot>

@@ -1,0 +1,1223 @@
+4/22/2013 2:05:48 PM
+Name= alpha
+	XPos= 1
+	yPos= 1
+	zPos= 324
+	isFriend= True
+
+Name= beta
+	XPos= 2
+	yPos= 1
+	zPos= 5
+	isFriend= False
+
+Name= victor
+	XPos= 3
+	yPos= 10
+	zPos= 5
+	isFriend= False
+
+Name= charlie
+	XPos= 3
+	yPos= 10
+	zPos= 5
+	isFriend= False
+
+4/22/2013 2:11:39 PM
+Name= alpha
+	XPos= 1
+	yPos= 1
+	zPos= 324
+	isFriend= True
+
+Name= beta
+	XPos= 2
+	yPos= 1
+	zPos= 5
+	isFriend= False
+
+Name= victor
+	XPos= 3
+	yPos= 10
+	zPos= 5
+	isFriend= False
+
+Name= charlie
+	XPos= 3
+	yPos= 10
+	zPos= 5
+	isFriend= False
+
+4/22/2013 2:28:09 PM
+Name= alpha
+	XPos= 1
+	yPos= 1
+	zPos= 324
+	isFriend= True
+
+Name= beta
+	XPos= 2
+	yPos= 1
+	zPos= 5
+	isFriend= False
+
+Name= victor
+	XPos= 3
+	yPos= 10
+	zPos= 5
+	isFriend= False
+
+Name= charlie
+	XPos= 3
+	yPos= 10
+	zPos= 5
+	isFriend= False
+
+4/22/2013 4:09:17 PM
+Name= alpha
+	XPos= 1
+	yPos= 1
+	zPos= 324
+	isFriend= True
+
+Name= beta
+	XPos= 2
+	yPos= 1
+	zPos= 5
+	isFriend= False
+
+Name= victor
+	XPos= 3
+	yPos= 10
+	zPos= 5
+	isFriend= False
+
+Name= charlie
+	XPos= 3
+	yPos= 10
+	zPos= 5
+	isFriend= False
+
+4/22/2013 4:09:31 PM
+Name= alpha
+	XPos= 1
+	yPos= 1
+	zPos= 324
+	isFriend= True
+
+Name= beta
+	XPos= 2
+	yPos= 1
+	zPos= 5
+	isFriend= False
+
+Name= victor
+	XPos= 3
+	yPos= 10
+	zPos= 5
+	isFriend= False
+
+Name= charlie
+	XPos= 3
+	yPos= 10
+	zPos= 5
+	isFriend= False
+
+Name= alpha
+	XPos= 1
+	yPos= 1
+	zPos= 324
+	isFriend= True
+
+Name= beta
+	XPos= 2
+	yPos= 1
+	zPos= 5
+	isFriend= False
+
+Name= victor
+	XPos= 3
+	yPos= 10
+	zPos= 5
+	isFriend= False
+
+Name= charlie
+	XPos= 3
+	yPos= 10
+	zPos= 5
+	isFriend= False
+
+4/22/2013 5:00:19 PM
+Name= alpha
+	XPos= 1
+	yPos= 1
+	zPos= 324
+	isFriend= True
+
+Name= beta
+	XPos= 2
+	yPos= 1
+	zPos= 5
+	isFriend= False
+
+Name= victor
+	XPos= 3
+	yPos= 10
+	zPos= 5
+	isFriend= False
+
+Name= charlie
+	XPos= 3
+	yPos= 10
+	zPos= 5
+	isFriend= False
+
+4/22/2013 5:13:50 PM
+Name= alpha
+	XPos= 1
+	yPos= 1
+	zPos= 324
+	isFriend= True
+
+Name= beta
+	XPos= 2
+	yPos= 1
+	zPos= 5
+	isFriend= False
+
+Name= victor
+	XPos= 3
+	yPos= 10
+	zPos= 5
+	isFriend= False
+
+Name= charlie
+	XPos= 3
+	yPos= 10
+	zPos= 5
+	isFriend= False
+
+4/22/2013 5:25:33 PM
+Name= alpha
+	XPos= 1
+	yPos= 1
+	zPos= 324
+	isFriend= True
+
+Name= beta
+	XPos= 2
+	yPos= 1
+	zPos= 5
+	isFriend= False
+
+Name= victor
+	XPos= 3
+	yPos= 10
+	zPos= 5
+	isFriend= False
+
+Name= charlie
+	XPos= 3
+	yPos= 10
+	zPos= 5
+	isFriend= False
+
+4/22/2013 5:48:00 PM
+Name= alpha
+	XPos= 1
+	yPos= 1
+	zPos= 324
+	isFriend= True
+
+Name= beta
+	XPos= 2
+	yPos= 1
+	zPos= 5
+	isFriend= False
+
+Name= victor
+	XPos= 3
+	yPos= 10
+	zPos= 5
+	isFriend= False
+
+Name= charlie
+	XPos= 3
+	yPos= 10
+	zPos= 5
+	isFriend= False
+
+4/22/2013 5:53:08 PM
+Name= alpha
+	XPos= 1
+	yPos= 1
+	zPos= 324
+	isFriend= True
+
+Name= beta
+	XPos= 2
+	yPos= 1
+	zPos= 5
+	isFriend= False
+
+Name= victor
+	XPos= 3
+	yPos= 10
+	zPos= 5
+	isFriend= False
+
+Name= charlie
+	XPos= 3
+	yPos= 10
+	zPos= 5
+	isFriend= False
+
+4/22/2013 5:54:51 PM
+Name= alpha
+	XPos= 1
+	yPos= 1
+	zPos= 324
+	isFriend= True
+
+Name= beta
+	XPos= 2
+	yPos= 1
+	zPos= 5
+	isFriend= False
+
+Name= victor
+	XPos= 3
+	yPos= 10
+	zPos= 5
+	isFriend= False
+
+Name= charlie
+	XPos= 3
+	yPos= 10
+	zPos= 5
+	isFriend= False
+
+4/22/2013 6:23:44 PM
+Name= alpha
+	XPos= 1
+	yPos= 1
+	zPos= 324
+	isFriend= True
+
+Name= beta
+	XPos= 2
+	yPos= 1
+	zPos= 5
+	isFriend= False
+
+Name= victor
+	XPos= 3
+	yPos= 10
+	zPos= 5
+	isFriend= False
+
+Name= charlie
+	XPos= 3
+	yPos= 10
+	zPos= 5
+	isFriend= False
+
+4/22/2013 8:09:17 PM
+Name= alpha
+	XPos= 1
+	yPos= 1
+	zPos= 324
+	isFriend= True
+
+Name= beta
+	XPos= 2
+	yPos= 1
+	zPos= 5
+	isFriend= False
+
+Name= victor
+	XPos= 3
+	yPos= 10
+	zPos= 5
+	isFriend= False
+
+Name= charlie
+	XPos= 3
+	yPos= 10
+	zPos= 5
+	isFriend= False
+
+4/22/2013 8:11:52 PM
+Name= alpha
+	XPos= 1
+	yPos= 1
+	zPos= 324
+	isFriend= True
+
+Name= beta
+	XPos= 2
+	yPos= 1
+	zPos= 5
+	isFriend= False
+
+Name= victor
+	XPos= 3
+	yPos= 10
+	zPos= 5
+	isFriend= False
+
+Name= charlie
+	XPos= 3
+	yPos= 10
+	zPos= 5
+	isFriend= False
+
+4/22/2013 8:14:20 PM
+Name= alpha
+	XPos= 1
+	yPos= 1
+	zPos= 324
+	isFriend= True
+
+Name= beta
+	XPos= 2
+	yPos= 1
+	zPos= 5
+	isFriend= False
+
+Name= victor
+	XPos= 3
+	yPos= 10
+	zPos= 5
+	isFriend= False
+
+Name= charlie
+	XPos= 3
+	yPos= 10
+	zPos= 5
+	isFriend= False
+
+4/22/2013 10:25:42 PM
+Name= alpha
+	XPos= 1
+	yPos= 1
+	zPos= 324
+	isFriend= True
+
+Name= beta
+	XPos= 2
+	yPos= 1
+	zPos= 5
+	isFriend= False
+
+Name= victor
+	XPos= 3
+	yPos= 10
+	zPos= 5
+	isFriend= False
+
+Name= charlie
+	XPos= 3
+	yPos= 10
+	zPos= 5
+	isFriend= False
+
+4/23/2013 9:34:52 AM
+Name= alpha
+	XPos= 1
+	yPos= 1
+	zPos= 324
+	isFriend= True
+
+Name= beta
+	XPos= 2
+	yPos= 1
+	zPos= 5
+	isFriend= False
+
+Name= victor
+	XPos= 3
+	yPos= 10
+	zPos= 5
+	isFriend= False
+
+Name= charlie
+	XPos= 3
+	yPos= 10
+	zPos= 5
+	isFriend= False
+
+4/23/2013 9:35:38 AM
+Name= alpha
+	XPos= 1
+	yPos= 1
+	zPos= 324
+	isFriend= True
+
+Name= beta
+	XPos= 2
+	yPos= 1
+	zPos= 5
+	isFriend= False
+
+Name= victor
+	XPos= 3
+	yPos= 10
+	zPos= 5
+	isFriend= False
+
+Name= charlie
+	XPos= 3
+	yPos= 10
+	zPos= 5
+	isFriend= False
+
+Name= alpha
+	XPos= 1
+	yPos= 1
+	zPos= 324
+	isFriend= True
+
+Name= beta
+	XPos= 2
+	yPos= 1
+	zPos= 5
+	isFriend= False
+
+Name= victor
+	XPos= 3
+	yPos= 10
+	zPos= 5
+	isFriend= False
+
+Name= charlie
+	XPos= 3
+	yPos= 10
+	zPos= 5
+	isFriend= False
+
+4/23/2013 9:40:01 AM
+Name= alpha
+	XPos= 1
+	yPos= 1
+	zPos= 324
+	isFriend= True
+
+Name= beta
+	XPos= 2
+	yPos= 1
+	zPos= 5
+	isFriend= False
+
+Name= victor
+	XPos= 3
+	yPos= 10
+	zPos= 5
+	isFriend= False
+
+Name= charlie
+	XPos= 3
+	yPos= 10
+	zPos= 5
+	isFriend= False
+
+4/23/2013 9:49:21 AM
+Name= alpha
+	XPos= 1
+	yPos= 1
+	zPos= 324
+	isFriend= True
+
+Name= beta
+	XPos= 2
+	yPos= 1
+	zPos= 5
+	isFriend= False
+
+Name= victor
+	XPos= 3
+	yPos= 10
+	zPos= 5
+	isFriend= False
+
+Name= charlie
+	XPos= 3
+	yPos= 10
+	zPos= 5
+	isFriend= False
+
+4/23/2013 9:54:36 AM
+Name= alpha
+	XPos= 1
+	yPos= 1
+	zPos= 324
+	isFriend= True
+
+Name= beta
+	XPos= 2
+	yPos= 1
+	zPos= 5
+	isFriend= False
+
+Name= victor
+	XPos= 3
+	yPos= 10
+	zPos= 5
+	isFriend= False
+
+Name= charlie
+	XPos= 3
+	yPos= 10
+	zPos= 5
+	isFriend= False
+
+4/23/2013 9:55:56 AM
+Name= alpha
+	XPos= 1
+	yPos= 1
+	zPos= 324
+	isFriend= True
+
+Name= beta
+	XPos= 2
+	yPos= 1
+	zPos= 5
+	isFriend= False
+
+Name= victor
+	XPos= 3
+	yPos= 10
+	zPos= 5
+	isFriend= False
+
+Name= charlie
+	XPos= 3
+	yPos= 10
+	zPos= 5
+	isFriend= False
+
+4/23/2013 11:21:18 AM
+Name= alpha
+	XPos= 1
+	yPos= 1
+	zPos= 324
+	isFriend= True
+
+Name= beta
+	XPos= 2
+	yPos= 1
+	zPos= 5
+	isFriend= False
+
+Name= victor
+	XPos= 3
+	yPos= 10
+	zPos= 5
+	isFriend= False
+
+Name= charlie
+	XPos= 3
+	yPos= 10
+	zPos= 5
+	isFriend= False
+
+4/23/2013 11:22:40 AM
+Name= alpha
+	XPos= 1
+	yPos= 1
+	zPos= 324
+	isFriend= True
+
+Name= beta
+	XPos= 2
+	yPos= 1
+	zPos= 5
+	isFriend= False
+
+Name= victor
+	XPos= 3
+	yPos= 10
+	zPos= 5
+	isFriend= False
+
+Name= charlie
+	XPos= 3
+	yPos= 10
+	zPos= 5
+	isFriend= False
+
+4/23/2013 11:24:14 AM
+Name= alpha
+	XPos= 1
+	yPos= 1
+	zPos= 324
+	isFriend= True
+
+Name= beta
+	XPos= 2
+	yPos= 1
+	zPos= 5
+	isFriend= False
+
+Name= victor
+	XPos= 3
+	yPos= 10
+	zPos= 5
+	isFriend= False
+
+Name= charlie
+	XPos= 3
+	yPos= 10
+	zPos= 5
+	isFriend= False
+
+4/23/2013 11:25:13 AM
+Name= alpha
+	XPos= 1
+	yPos= 1
+	zPos= 324
+	isFriend= True
+
+Name= beta
+	XPos= 2
+	yPos= 1
+	zPos= 5
+	isFriend= False
+
+Name= victor
+	XPos= 3
+	yPos= 10
+	zPos= 5
+	isFriend= False
+
+Name= charlie
+	XPos= 3
+	yPos= 10
+	zPos= 5
+	isFriend= False
+
+4/23/2013 11:27:02 AM
+Name= alpha
+	XPos= 1
+	yPos= 1
+	zPos= 324
+	isFriend= True
+
+Name= beta
+	XPos= 2
+	yPos= 1
+	zPos= 5
+	isFriend= False
+
+Name= victor
+	XPos= 3
+	yPos= 10
+	zPos= 5
+	isFriend= False
+
+Name= charlie
+	XPos= 3
+	yPos= 10
+	zPos= 5
+	isFriend= False
+
+4/23/2013 11:30:31 AM
+Name= alpha
+	XPos= 1
+	yPos= 1
+	zPos= 324
+	isFriend= True
+
+Name= beta
+	XPos= 2
+	yPos= 1
+	zPos= 5
+	isFriend= False
+
+Name= victor
+	XPos= 3
+	yPos= 10
+	zPos= 5
+	isFriend= False
+
+Name= charlie
+	XPos= 3
+	yPos= 10
+	zPos= 5
+	isFriend= False
+
+4/23/2013 11:31:42 AM
+Name= alpha
+	XPos= 1
+	yPos= 1
+	zPos= 324
+	isFriend= True
+
+Name= beta
+	XPos= 2
+	yPos= 1
+	zPos= 5
+	isFriend= False
+
+Name= victor
+	XPos= 3
+	yPos= 10
+	zPos= 5
+	isFriend= False
+
+Name= charlie
+	XPos= 3
+	yPos= 10
+	zPos= 5
+	isFriend= False
+
+4/23/2013 11:32:48 AM
+Name= alpha
+	XPos= 1
+	yPos= 1
+	zPos= 324
+	isFriend= True
+
+Name= beta
+	XPos= 2
+	yPos= 1
+	zPos= 5
+	isFriend= False
+
+Name= victor
+	XPos= 3
+	yPos= 10
+	zPos= 5
+	isFriend= False
+
+Name= charlie
+	XPos= 3
+	yPos= 10
+	zPos= 5
+	isFriend= False
+
+4/23/2013 11:33:45 AM
+Name= charlie
+	XPos= 1
+	yPos= 4
+	zPos= 2
+	isFriend= False
+
+Name= victor
+	XPos= 2
+	yPos= 5
+	zPos= 3
+	isFriend= True
+
+Name= alpha
+	XPos= 3
+	yPos= 6
+	zPos= 5
+	isFriend= False
+
+Name= beta
+	XPos= 1
+	yPos= 4
+	zPos= 2
+	isFriend= False
+
+4/23/2013 11:42:39 AM
+Name= alpha
+	XPos= 1
+	yPos= 1
+	zPos= 324
+	isFriend= True
+
+Name= beta
+	XPos= 2
+	yPos= 1
+	zPos= 5
+	isFriend= False
+
+Name= victor
+	XPos= 3
+	yPos= 10
+	zPos= 5
+	isFriend= False
+
+Name= charlie
+	XPos= 3
+	yPos= 10
+	zPos= 5
+	isFriend= False
+
+4/23/2013 11:44:35 AM
+Name= alpha
+	XPos= 1
+	yPos= 1
+	zPos= 324
+	isFriend= True
+
+Name= beta
+	XPos= 2
+	yPos= 1
+	zPos= 5
+	isFriend= False
+
+Name= victor
+	XPos= 3
+	yPos= 10
+	zPos= 5
+	isFriend= False
+
+Name= charlie
+	XPos= 3
+	yPos= 10
+	zPos= 5
+	isFriend= False
+
+4/23/2013 11:46:29 AM
+Name= alpha
+	XPos= 1
+	yPos= 1
+	zPos= 324
+	isFriend= True
+
+Name= beta
+	XPos= 2
+	yPos= 1
+	zPos= 5
+	isFriend= False
+
+Name= victor
+	XPos= 3
+	yPos= 10
+	zPos= 5
+	isFriend= False
+
+Name= charlie
+	XPos= 3
+	yPos= 10
+	zPos= 5
+	isFriend= False
+
+4/23/2013 12:13:40 PM
+Name= alpha
+	XPos= 1
+	yPos= 1
+	zPos= 324
+	isFriend= True
+
+Name= beta
+	XPos= 2
+	yPos= 1
+	zPos= 5
+	isFriend= False
+
+Name= victor
+	XPos= 3
+	yPos= 10
+	zPos= 5
+	isFriend= False
+
+Name= charlie
+	XPos= 3
+	yPos= 10
+	zPos= 5
+	isFriend= False
+
+4/23/2013 12:15:00 PM
+Name= alpha
+	XPos= 1
+	yPos= 1
+	zPos= 324
+	isFriend= True
+
+Name= beta
+	XPos= 2
+	yPos= 1
+	zPos= 5
+	isFriend= False
+
+Name= victor
+	XPos= 3
+	yPos= 10
+	zPos= 5
+	isFriend= False
+
+Name= charlie
+	XPos= 3
+	yPos= 10
+	zPos= 5
+	isFriend= False
+
+4/23/2013 12:20:00 PM
+Name= alpha
+	XPos= 1
+	yPos= 1
+	zPos= 324
+	isFriend= True
+
+Name= beta
+	XPos= 2
+	yPos= 1
+	zPos= 5
+	isFriend= False
+
+Name= victor
+	XPos= 3
+	yPos= 10
+	zPos= 5
+	isFriend= False
+
+Name= charlie
+	XPos= 3
+	yPos= 10
+	zPos= 5
+	isFriend= False
+
+4/23/2013 12:24:43 PM
+Name= alpha
+	XPos= 1
+	yPos= 1
+	zPos= 324
+	isFriend= True
+
+Name= beta
+	XPos= 2
+	yPos= 1
+	zPos= 5
+	isFriend= False
+
+Name= victor
+	XPos= 3
+	yPos= 10
+	zPos= 5
+	isFriend= False
+
+Name= charlie
+	XPos= 3
+	yPos= 10
+	zPos= 5
+	isFriend= False
+
+4/23/2013 12:26:32 PM
+Name= alpha
+	XPos= 1
+	yPos= 1
+	zPos= 324
+	isFriend= True
+
+Name= beta
+	XPos= 2
+	yPos= 1
+	zPos= 5
+	isFriend= False
+
+Name= victor
+	XPos= 3
+	yPos= 10
+	zPos= 5
+	isFriend= False
+
+Name= charlie
+	XPos= 3
+	yPos= 10
+	zPos= 5
+	isFriend= False
+
+4/23/2013 12:27:37 PM
+Name= alpha
+	XPos= 1
+	yPos= 1
+	zPos= 324
+	isFriend= True
+
+Name= beta
+	XPos= 2
+	yPos= 1
+	zPos= 5
+	isFriend= False
+
+Name= victor
+	XPos= 3
+	yPos= 10
+	zPos= 5
+	isFriend= False
+
+Name= charlie
+	XPos= 3
+	yPos= 10
+	zPos= 5
+	isFriend= False
+
+4/23/2013 12:27:49 PM
+Name= alpha
+	XPos= 1
+	yPos= 1
+	zPos= 324
+	isFriend= True
+
+Name= beta
+	XPos= 2
+	yPos= 1
+	zPos= 5
+	isFriend= False
+
+Name= victor
+	XPos= 3
+	yPos= 10
+	zPos= 5
+	isFriend= False
+
+Name= charlie
+	XPos= 3
+	yPos= 10
+	zPos= 5
+	isFriend= False
+
+Name= alpha
+	XPos= 1
+	yPos= 1
+	zPos= 324
+	isFriend= True
+
+Name= beta
+	XPos= 2
+	yPos= 1
+	zPos= 5
+	isFriend= False
+
+Name= victor
+	XPos= 3
+	yPos= 10
+	zPos= 5
+	isFriend= False
+
+Name= charlie
+	XPos= 3
+	yPos= 10
+	zPos= 5
+	isFriend= False
+
+4/23/2013 12:29:50 PM
+Name= alpha
+	XPos= 1
+	yPos= 1
+	zPos= 324
+	isFriend= True
+
+Name= beta
+	XPos= 2
+	yPos= 1
+	zPos= 5
+	isFriend= False
+
+Name= victor
+	XPos= 3
+	yPos= 10
+	zPos= 5
+	isFriend= False
+
+Name= charlie
+	XPos= 3
+	yPos= 10
+	zPos= 5
+	isFriend= False
+
+4/23/2013 2:12:48 PM
+Name= alpha
+	XPos= 1
+	yPos= 1
+	zPos= 324
+	isFriend= True
+
+Name= beta
+	XPos= 2
+	yPos= 1
+	zPos= 5
+	isFriend= False
+
+Name= victor
+	XPos= 3
+	yPos= 10
+	zPos= 5
+	isFriend= False
+
+Name= charlie
+	XPos= 3
+	yPos= 10
+	zPos= 5
+	isFriend= False
+
+5/2/2013 1:30:28 PM
+Name= 
+	XPos= 3
+	yPos= 323
+	zPos= 3212
+	isFriend= False
+
+Name= 
+	XPos= 3
+	yPos= 323
+	zPos= 3212
+	isFriend= True
+
+Name= 
+	XPos= 3
+	yPos= 323
+	zPos= 3212
+	isFriend= False
+
+5/2/2013 1:32:27 PM
+Name= 
+	XPos= 3
+	yPos= 323
+	zPos= 3212
+	isFriend= False
+
+Name= 
+	XPos= 3
+	yPos= 323
+	zPos= 3212
+	isFriend= True
+
+Name= 
+	XPos= 3
+	yPos= 323
+	zPos= 3212
+	isFriend= False
+
+5/2/2013 4:34:13 PM
+Name= 
+	XPos= 3
+	yPos= 323
+	zPos= 3212
+	isFriend= False
+
+Name= 
+	XPos= 3
+	yPos= 323
+	zPos= 3212
+	isFriend= True
+
+Name= 
+	XPos= 3
+	yPos= 323
+	zPos= 3212
+	isFriend= False
+
+5/2/2013 4:40:19 PM
+Name= 
+	XPos= 3
+	yPos= 323
+	zPos= 3212
+	isFriend= False
+
+Name= 
+	XPos= 3
+	yPos= 323
+	zPos= 3212
+	isFriend= True
+
+Name= 
+	XPos= 3
+	yPos= 323
+	zPos= 3212
+	isFriend= False
+
