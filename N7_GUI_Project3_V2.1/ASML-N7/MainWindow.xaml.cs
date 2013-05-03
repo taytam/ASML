@@ -23,9 +23,7 @@ namespace ASML_N7
         private MissileLauncher launcher = new MissileLauncher();
         private TargetManager TManager;
         private KinectSensor sensor;
-        private GuiManagerMediator guiManager;
-        private Thread video;
-        private SnDController controller;
+        private GuiManagerMediator guiManager = GuiManagerMediator.getInstance();
 
         private System.Windows.Threading.DispatcherTimer dispatcherTimer = null;
 
@@ -44,7 +42,15 @@ namespace ASML_N7
             InitializeComponent();
             TManager = TargetManager.GetInstance();
             TManager.AddedTarget += TManager_AddedTarget;
+
+            //guiManager.UpdateGUICoordinates += Update;
         }
+
+void guiManager_UpdateGUICoordinates(object sender, Target target)
+{
+ 	labelPhiValue.Content = guiManager.Phi;
+    labelThetaValue.Content = guiManager.Theta;
+}
 
         private void WindowClosing(object sender, System.ComponentModel.CancelEventArgs e)
         {
@@ -76,7 +82,7 @@ namespace ASML_N7
         public void DisableButtons()
         {
             StartButton.IsEnabled = false;
-            StopButton.IsEnabled = true;
+            //StopButton.IsEnabled = false;
             UpButton.IsEnabled = false;
             DownButton.IsEnabled = false;
             LeftButton.IsEnabled = false;
@@ -92,8 +98,10 @@ namespace ASML_N7
             RightButton.IsEnabled = true;
             FireButton.IsEnabled = true;
             StartButton.IsEnabled = true;
-            StopButton.IsEnabled = true;
+            //StopButton.IsEnabled = true;
         }
+
+       // public event UpdateGUICoordinates
 
         public void Start_Button_Click(object sender, RoutedEventArgs e)
         {
@@ -102,11 +110,13 @@ namespace ASML_N7
                 TimerReset();
                 StartTimer();
                 DisableButtons();
-                controller = SnDController.getInstance(comboBoxSelectMode.SelectionBoxItem.ToString());
+                SnDController controller = SnDController.getInstance(comboBoxSelectMode.SelectionBoxItem.ToString());
                 Task missileLauncherThread = new Task(controller.SearchAndDestroy);
                 missileLauncherThread.Start();
 
-
+                //labelPhiValue.Content = guiManager.Phi;
+                //labelThetaValue.Content = guiManager.Theta;
+                //updateSubscribe(controller);
 
                 Task timerStop = missileLauncherThread.ContinueWith((antecedent) =>
                 {
@@ -120,12 +130,16 @@ namespace ASML_N7
             }
         }
 
+        //public void updateSubscribe(SnDController controller)
+        //{
+        //    labelPhiValue.Content = controller.guiManger.Phi;
+        //    labelThetaValue.Content = controller.guiManger.Theta;
+        //}
 
         public void Stop_Button_Click(object sender, RoutedEventArgs e)
         {
-
+            
             EnableButtons();
-            controller.changeStopLauncher();
             TimerReset();
             if (dispatcherTimer != null)
             {
@@ -240,6 +254,7 @@ namespace ASML_N7
             /**If the file has an invalid format handler**/
             if (file == null)
             {
+                //Environment.Exit(-1);
                 return;
             }
 
@@ -259,7 +274,9 @@ namespace ASML_N7
             TargetManager targetManager = TargetManager.GetInstance();
             /*****/
 
+            targetManager.ClearList();
             TargetAdded_Label.Content = "";
+            //string value = System.Configuration.ConfigurationManager.AppSettings["Target_File"];
             string value = TextBoxFilePath.Text;
 
             FileReader file;
@@ -269,6 +286,7 @@ namespace ASML_N7
             /**If the file has an invalid format handler**/
             if (file == null)
             {
+                //Environment.Exit(-1);
                 return;
             }
 
@@ -282,6 +300,16 @@ namespace ASML_N7
             }
         }
 
+
+
+        //public void Update(object sender, GuiManagerMediator guiManager)
+        //{
+        //    this.Dispatcher.Invoke(
+        //    labelPhiValue.Content = guiManager.Phi;
+        //    labelThetaValue.Content = guiManager.Theta;
+        //});
+        //}
+
         /**Write_Target_Info writes out a list of strings to the ListBox
          * item containing the target information**/
 
@@ -292,6 +320,7 @@ namespace ASML_N7
             foreach (string item in list)
                 targetInformation.Items.Add(item);
         }
+
 
         public void TManager_AddedTarget(object sender, Target target)
         {
@@ -395,6 +424,7 @@ namespace ASML_N7
                 {
                     if (targetInfo == true)
                     {
+                        target.coordinateConversion(target.XPosition, target.YPosition, target.ZPosition);
                         BuildTargetList(target);
                         target = null;
                     }

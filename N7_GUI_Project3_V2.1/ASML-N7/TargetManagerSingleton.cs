@@ -39,6 +39,14 @@ namespace ASML_N7
             }
         }
 
+        public void ClearList()
+        {
+            foreach (Target target in TargetList)
+            {
+                target.DecrementTargetCount();
+            }
+            TargetList.Clear();
+        }
         public List<Target> GetList()
         {
             return TargetList;

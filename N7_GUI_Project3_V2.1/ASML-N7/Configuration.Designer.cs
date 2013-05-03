@@ -41,6 +41,7 @@
             this.File_Text.Name = "File_Text";
             this.File_Text.Size = new System.Drawing.Size(245, 20);
             this.File_Text.TabIndex = 1;
+            this.File_Text.TextChanged += new System.EventHandler(this.File_Text_TextChanged);
             // 
             // File_Select
             // 

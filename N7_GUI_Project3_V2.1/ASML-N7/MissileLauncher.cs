@@ -145,7 +145,7 @@ namespace ASML_N7
             if (DevicePresent)
             {
                 this.moveMissileLauncher(this.LEFT, 6500);  //5500
-                this.moveMissileLauncher(this.RIGHT, 3000); //2750 Broken! When using 2750 the turret did not return to a neutral position
+                this.moveMissileLauncher(this.RIGHT, 2800); //2750 Broken! When using 2750 the turret did not return to a neutral position
                 this.moveMissileLauncher(this.UP, 2000);
                 this.moveMissileLauncher(this.DOWN, 500);
             }

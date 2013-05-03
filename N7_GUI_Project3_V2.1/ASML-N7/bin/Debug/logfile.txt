@@ -1145,79 +1145,53 @@ Name= charlie
 	zPos= 5
 	isFriend= False
 
-5/2/2013 1:30:28 PM
-Name= 
-	XPos= 3
-	yPos= 323
-	zPos= 3212
+5/2/2013 10:22:21 PM
+Name= 1
+	XPos= -9
+	yPos= 25
+	zPos= 0
 	isFriend= False
 
-Name= 
-	XPos= 3
-	yPos= 323
-	zPos= 3212
-	isFriend= True
-
-Name= 
-	XPos= 3
-	yPos= 323
-	zPos= 3212
+Name= 2
+	XPos= -4
+	yPos= 29
+	zPos= 0
 	isFriend= False
 
-5/2/2013 1:32:27 PM
-Name= 
-	XPos= 3
-	yPos= 323
-	zPos= 3212
+Name= 3
+	XPos= 1
+	yPos= 23
+	zPos= 0
 	isFriend= False
 
-Name= 
-	XPos= 3
-	yPos= 323
-	zPos= 3212
-	isFriend= True
-
-Name= 
-	XPos= 3
-	yPos= 323
-	zPos= 3212
+Name= 4
+	XPos= 10
+	yPos= 26
+	zPos= 0
 	isFriend= False
 
-5/2/2013 4:34:13 PM
-Name= 
-	XPos= 3
-	yPos= 323
-	zPos= 3212
+5/2/2013 10:25:22 PM
+Name= 1
+	XPos= -9
+	yPos= 25
+	zPos= 0
 	isFriend= False
 
-Name= 
-	XPos= 3
-	yPos= 323
-	zPos= 3212
-	isFriend= True
-
-Name= 
-	XPos= 3
-	yPos= 323
-	zPos= 3212
+Name= 2
+	XPos= -4
+	yPos= 29
+	zPos= 0
 	isFriend= False
 
-5/2/2013 4:40:19 PM
-Name= 
-	XPos= 3
-	yPos= 323
-	zPos= 3212
+Name= 3
+	XPos= 1
+	yPos= 23
+	zPos= 0
 	isFriend= False
 
-Name= 
-	XPos= 3
-	yPos= 323
-	zPos= 3212
-	isFriend= True
-
-Name= 
-	XPos= 3
-	yPos= 323
-	zPos= 3212
+Name= 4
+	XPos= 10
+	yPos= 26
+	zPos= 0
 	isFriend= False
 

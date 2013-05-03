@@ -9,7 +9,8 @@ namespace ASML_N7
         private List<Target> killList = new List<Target>();
         //public GuiManagerMediator guiManger;
 
-        private volatile bool stopLauncher;
+        //public event UpdateSubscriber updater;
+        //public delegate void updateSubcriber();
 
         public SnDController(string mode)
         {
@@ -17,30 +18,35 @@ namespace ASML_N7
             DestroyMode destroyMode = searchAndDestroy.Check_Mode(mode);
 
             killList = destroyMode.getTargets();
-
-            stopLauncher = false;
         }
 
         public void SearchAndDestroy()
         {
-            //guiManger = GuiManagerMediator.getInstance();
+            GuiManagerMediator guiManager = GuiManagerMediator.getInstance();
             launcher.Reset();
             int firedFourTimes = 0;
             //bool targetsLeft = true;
             foreach (Target target in killList)
             {
-                while (stopLauncher == false)
+                launcher.MoveTo(target.Phi, target.Theta);
+                launcher.Fire();
+
+                //set guiManagerMediator phi and theta to target's current phi and theta
+                guiManager.Phi = target.Phi;
+                guiManager.Theta = target.Theta;
+
+                //guiManager.UpdateGUI();
+
+                //firedFourTimes += 1;
+                if (firedFourTimes >= 4)
                 {
-                    launcher.MoveTo(target.Phi, target.Theta);
-                    launcher.Fire();
-                    //firedFourTimes += 1;
-                    if (firedFourTimes >= 4)
-                    {
-                        break;
-                        //targetsLeft = false;
-                        //return targetsLeft;
-                    }
+                    break;
+                    //targetsLeft = false;
+                    //return targetsLeft;
                 }
+
+                launcher.Reset();
+
                 //mLStop += new RoutedEventHandler();
             }
 
@@ -67,11 +73,6 @@ namespace ASML_N7
             m_SnDController.ChangeMode(mode);
 
             return m_SnDController;
-        }
-
-        public void changeStopLauncher()
-        {
-            stopLauncher = true;
         }
     }
 }

@@ -13,9 +13,5 @@ namespace ASML_N7
     /// </summary>
     public partial class App : Application
     {
-        private void Application_Exit_1(object sender, ExitEventArgs e)
-        {
-
-        }
     }
 }

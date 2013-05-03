@@ -60,36 +60,45 @@ namespace ASML_N7
         /// <param name="theta"></param>
         void IMissileLauncher.MoveTo(double phi, double theta)
         {
-            int anglePhi = Convert.ToInt32(phi);
             int angleTheta = Convert.ToInt32(theta);
+            int anglePhi = Convert.ToInt32(phi);
 
             int phiToDegrees = anglePhi * 20;
             int thetaToDegrees = angleTheta * 20;
 
+
             //missileLauncher.command_reset();
 
-            if (anglePhi <= 0)
-            {
-                anglePhi = anglePhi * -1;
-                missileLauncher.command_Left(phiToDegrees);
+            if (phiToDegrees <= 1800)
+            {   
+                //phiToDegrees = anglePhi * -1;
+                anglePhi = (1800 - phiToDegrees);
+                //was anglePhi
+
+                missileLauncher.command_Right(anglePhi);
             }
-            else if (anglePhi > 0)
+            else if (phiToDegrees > 1800)
             {
-                missileLauncher.command_Right(phiToDegrees);
+                anglePhi = phiToDegrees - 1800;
+                missileLauncher.command_Left(anglePhi);
             }
             else
             {
-                missileLauncher.command_Left(0);
+               // missileLauncher.command_Left(0);
             }
 
-            if (angleTheta <= 0)
+            if (thetaToDegrees <= 1800)
             {
-                angleTheta = angleTheta * -1;
-                missileLauncher.command_Down(thetaToDegrees);
+                //thetaToDegrees = thetaToDegrees * -1;
+                angleTheta = (1800 - thetaToDegrees);
+                //was angleTheta
+                //thetaToDegrees = angleTheta * -1;
+                missileLauncher.command_Down(angleTheta);
             }
-            else if (angleTheta > 0)
+            else if (thetaToDegrees > 1800)
             {
-                missileLauncher.command_Up(thetaToDegrees);
+                angleTheta = thetaToDegrees - 1800;
+                missileLauncher.command_Up(angleTheta);
             }
             else
             {

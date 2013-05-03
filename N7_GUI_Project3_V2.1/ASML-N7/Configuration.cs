@@ -32,7 +32,6 @@ namespace ASML_N7
 
             /**Save the App.Config settings**/
             config.Save(ConfigurationSaveMode.Modified);
-
             /**Refesh the changes made to the App.Config file**/
             ConfigurationManager.RefreshSection(config.AppSettings.SectionInformation.Name);
         }
@@ -63,13 +62,20 @@ namespace ASML_N7
         private void Open_File(object sender, EventArgs e)
         {
             Save_Configuration(File_Text.Text);
-            this.Close();   
+
+            this.Close();
+            
         }
 
         private void Cancel_Button(object sender, EventArgs e)
         {
             Save_Configuration("");
             this.Close();
+        }
+
+        private void File_Text_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

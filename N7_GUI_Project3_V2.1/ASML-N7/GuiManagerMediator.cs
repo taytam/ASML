@@ -6,14 +6,34 @@ using System.Threading.Tasks;
 
 namespace ASML_N7
 {
-    class GuiManagerMediator : EventArgs
+    public class GuiManagerMediator : EventArgs
     {
         private double phi;
         private double theta;
         private string message;
         private bool enemiesLeft;
 
+        private object ThetaLabel;
+        private object PhiLabel;
+        private object MissileLabel;
+
+        //public delegate void Update(object sender);
+        //public event Update UpdateGUICoordinates;
         private static GuiManagerMediator m_guiManagerMediator = null;
+
+        //public void UpdateGUI()
+        //{
+        //    ThetaLabel = Phi;
+        //    PhiLabel = Phi;
+        //    //MissileLabel = 
+        //}
+
+        //public void loadLabels(object theta, object phi, object missiles)
+        //{
+        //    ThetaLabel = theta;
+        //    PhiLabel = phi;
+        //    MissileLabel = missiles;
+        //}
 
         public double Phi
         {

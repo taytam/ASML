@@ -114,8 +114,14 @@ namespace ASML_N7
         {
             const double radToDeg = 57.29577;
             double r = Math.Sqrt((xPosition * xPosition) + (yPosition * yPosition) + (zPosition * zPosition));
-            Theta = Convert.ToInt32(radToDeg * (Math.Acos(zPosition / r)));
-            Phi = Convert.ToInt32(radToDeg * (Math.Atan(yPosition / xPosition)));
+            double doubleTheta = Math.Acos(zPosition / r);
+            double doublePhi = Math.Atan2(yPosition, xPosition);
+
+            double ThetaTimesrtg = radToDeg * doubleTheta;
+            double PhiTimesrtg = radToDeg * doublePhi;
+
+            Theta = Convert.ToInt32(ThetaTimesrtg);
+            Phi = Convert.ToInt32(PhiTimesrtg);
         }
 
         /**Overloaded constructor for the Target class xPosition, yPosition,
@@ -136,6 +142,11 @@ namespace ASML_N7
 
             _isFriend = isFriend;
             _isEliminated = isEliminated;
+        }
+
+        public void DecrementTargetCount()
+        {
+            targetCount--;
         }
     }
 }
